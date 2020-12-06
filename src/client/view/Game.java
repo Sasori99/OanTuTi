@@ -208,7 +208,7 @@ public class Game extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 51, 51));
 
-        avtUser1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Okami\\Desktop\\LTM\\OanTuTi\\image\\girl.png")); // NOI18N
+        avtUser1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/boy.png"))); // NOI18N
 
         javax.swing.GroupLayout user1ImageLayout = new javax.swing.GroupLayout(user1Image);
         user1Image.setLayout(user1ImageLayout);
@@ -221,7 +221,7 @@ public class Game extends javax.swing.JFrame {
             .addComponent(avtUser1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
-        avtUser2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Okami\\Desktop\\LTM\\OanTuTi\\image\\boy.png")); // NOI18N
+        avtUser2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/girl.png"))); // NOI18N
 
         javax.swing.GroupLayout user2ImageLayout = new javax.swing.GroupLayout(user2Image);
         user2Image.setLayout(user2ImageLayout);
@@ -298,11 +298,11 @@ public class Game extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("3");
 
-        keoButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Okami\\Desktop\\LTM\\OanTuTi\\image\\Keo.jpg")); // NOI18N
+        keoButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Keo.jpg"))); // NOI18N
 
-        buaButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Okami\\Desktop\\LTM\\OanTuTi\\image\\Bua.jpg")); // NOI18N
+        buaButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Bua.jpg"))); // NOI18N
 
-        baoButton.setIcon(new javax.swing.ImageIcon("C:\\Users\\Okami\\Desktop\\LTM\\OanTuTi\\image\\Bao.jpg")); // NOI18N
+        baoButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/Bao.jpg"))); // NOI18N
 
         timeStartLabel.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         timeStartLabel.setForeground(new java.awt.Color(255, 255, 255));

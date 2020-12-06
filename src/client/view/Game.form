@@ -189,7 +189,7 @@
             <Component class="javax.swing.JLabel" name="avtUser1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Okami\Desktop\LTM\OanTuTi\image\girl.png"/>
+                  <Image iconType="3" name="/image/boy.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -213,7 +213,7 @@
             <Component class="javax.swing.JLabel" name="avtUser2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Okami\Desktop\LTM\OanTuTi\image\boy.png"/>
+                  <Image iconType="3" name="/image/girl.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -399,21 +399,21 @@
         <Component class="javax.swing.JButton" name="keoButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Okami\Desktop\LTM\OanTuTi\image\Keo.jpg"/>
+              <Image iconType="3" name="/image/Keo.jpg"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="buaButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Okami\Desktop\LTM\OanTuTi\image\Bua.jpg"/>
+              <Image iconType="3" name="/image/Bua.jpg"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="baoButton">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\Okami\Desktop\LTM\OanTuTi\image\Bao.jpg"/>
+              <Image iconType="3" name="/image/Bao.jpg"/>
             </Property>
           </Properties>
         </Component>

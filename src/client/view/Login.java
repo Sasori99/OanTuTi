@@ -10,6 +10,7 @@ import java.awt.BorderLayout;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.logging.Level;
@@ -18,7 +19,7 @@ import javax.imageio.ImageIO;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import model.Message;
-import model.User;
+import model.NguoiChoi;
 
 /**
  *
@@ -27,13 +28,14 @@ import model.User;
 public class Login extends javax.swing.JFrame {
 
     private ClientController clientController;
+    private String dir = "image/";
 
     /**
      * Creates new form Login
      */
     public Login() {
         try {
-            final Image backgroundImage = ImageIO.read(new File("../image/login.jpg"));
+            BufferedImage backgroundImage = ImageIO.read(new File(dir + "login.jpg"));
             setContentPane(new JPanel(new BorderLayout()) {
                 @Override
                 public void paintComponent(Graphics g) {
@@ -46,8 +48,8 @@ public class Login extends javax.swing.JFrame {
         }
     }
     
-    public User getUserFromInputs() {
-        return new User(jTextField1.getText(), jPasswordField1.getText());
+    public NguoiChoi getUserFromInputs() {
+        return new NguoiChoi(jTextField1.getText(), jPasswordField1.getText());
     }
 
     /**
@@ -89,6 +91,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 0, 51));
         jButton1.setText("Đăng nhập");

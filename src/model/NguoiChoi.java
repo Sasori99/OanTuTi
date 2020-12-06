@@ -12,7 +12,7 @@ import java.util.Objects;
  *
  * @author Okami
  */
-public class User implements Serializable{
+public class NguoiChoi implements Serializable{
     private int id;
     private String username;
     private String password;
@@ -22,28 +22,38 @@ public class User implements Serializable{
     private int draw;
     private int lose;
 
-    public User() {
+    public NguoiChoi() {
     }
 
-    public User(String username, String password) {
+    public NguoiChoi(String username, String password) {
         this.username = username;
         this.password = password;
     }
     
-    public User(String username, String password, String fullName) {
+    public NguoiChoi(String username, String password, String fullName) {
         this.username = username;
         this.password = password;
         this.fullName = fullName;
     }
 
-    public User(int id, String username, String password, String fullName) {
+    public NguoiChoi(int id, String username, String password, String fullName) {
         this.id = id;
         this.username = username;
         this.password = password;
         this.fullName = fullName;
     }
 
-    public User(int id, String username, String password, String fullName, int statusUser, int win, int draw, int lose) {
+    public NguoiChoi(int id, String username, String password, String fullName, int userStatus) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.fullName = fullName;
+        this.userStatus = userStatus;
+    }
+    
+    
+
+    public NguoiChoi(int id, String username, String password, String fullName, int statusUser, int win, int draw, int lose) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -141,7 +151,7 @@ public class User implements Serializable{
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final User other = (User) obj;
+        final NguoiChoi other = (NguoiChoi) obj;
         System.out.println(other);
         if (this.id == other.getId() &&
             this.username.equals(other.getUsername())&&
